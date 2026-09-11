@@ -216,3 +216,53 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Claude
+.claude/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Temporary
+tmp/
+temp/
+
+# Generated media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Large assets
+assets/raw/
+assets/generated/
+
+# Credentials
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Logs
+*.log
